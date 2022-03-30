@@ -4,7 +4,7 @@ WORKDIR /.
 
 RUN apt-get update
 
-RUN apt-get install tomcat -y
+RUN apt-get install tomcat9 -y
 
 RUN touch index.html
 
